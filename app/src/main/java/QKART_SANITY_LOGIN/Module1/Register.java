@@ -3,11 +3,8 @@ package QKART_SANITY_LOGIN.Module1;
 import java.sql.Timestamp;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Register {
     RemoteWebDriver driver;
@@ -28,7 +25,6 @@ public class Register {
             throws InterruptedException {
         // Find the Username Text Box
         WebElement username_txt_box = this.driver.findElement(By.id("username"));
-
         // Get time stamp for generating a unique username
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
@@ -37,7 +33,7 @@ public class Register {
             // Concatenate the timestamp to string to form unique timestamp
             test_data_username = Username + "_" + String.valueOf(timestamp.getTime());
         else
-             test_data_username = Username + "_" + String.valueOf(timestamp.getTime());
+             test_data_username = Username;
 
         // Type the generated username in the username field
         username_txt_box.sendKeys(test_data_username);
