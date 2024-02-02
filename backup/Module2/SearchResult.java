@@ -117,7 +117,7 @@ public class SearchResult {
             for(int i=0;i<expectedTableHeaders.size();i++){
                 String expectedTableHeaderValue = expectedTableHeaders.get(i);
                 int column=i+1;
-                String headerXpath="//table/thead/tr/th[" + column + "]";
+                String headerXpath="//table/thead/tr/th["+column+"]";
                 WebElement headerElement= driver.findElement(By.xpath(headerXpath));
                 String actualTableHeaderValue = headerElement.getText();
                 if(!actualTableHeaderValue.equals(expectedTableHeaderValue)){

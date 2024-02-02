@@ -63,7 +63,6 @@ public class Register {
         // Wait for registration to complete
         Thread.sleep(3000);
 
-        // SLEEP_STMT_06: Wait for new user to get created in the backend
 
         this.lastGeneratedUsername = test_data_username;
 
