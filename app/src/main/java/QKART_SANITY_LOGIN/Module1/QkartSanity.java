@@ -148,7 +148,7 @@ public class QkartSanity {
         homePage.navigateToHome();
 
         // SLEEP_STMT_01 : Wait for Page to Load
-        Thread.sleep(5000);
+    
 
         // Search for the "yonex" product
         status = homePage.searchForProduct("yonex");
@@ -338,7 +338,8 @@ public class QkartSanity {
         // Place the order
         checkoutPage.placeOrder();
         // SLEEP_STMT_04: Wait for place order to succeed and navigate to Thanks page
-        Thread.sleep(3000);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.urlContains("/thanks"));
 
         // Check if placing order redirected to the Thansk page
         status = driver.getCurrentUrl().endsWith("/thanks");
@@ -529,7 +530,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+             System.out.println("");
 
             // Execute Test Case 2
              totalTests += 1;
@@ -538,7 +539,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+             System.out.println("");
             // Execute Test Case 3
              totalTests += 1;
              status = TestCase03(driver);
@@ -546,7 +547,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+             System.out.println("");
 
             // Execute Test Case 4
              totalTests += 1;
@@ -555,7 +556,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+            System.out.println("");
 
             // Execute Test Case 5
              totalTests += 1;
@@ -564,7 +565,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+             System.out.println("");
 
             // Execute Test Case 6
             totalTests += 1;
@@ -573,7 +574,7 @@ public class QkartSanity {
             passedTests += 1;
             }
 
-            // System.out.println("");
+             System.out.println("");
 
             // Execute Test Case 7
              totalTests += 1;
@@ -582,7 +583,7 @@ public class QkartSanity {
              passedTests += 1;
              }
 
-            // System.out.println("");
+            System.out.println("");
 
 
             // Execute Test Case 8

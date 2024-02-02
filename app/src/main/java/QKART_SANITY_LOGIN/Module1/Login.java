@@ -1,7 +1,8 @@
 package QKART_SANITY_LOGIN.Module1;
 
 import java.time.Duration;
-
+import java.util.ArrayList;
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -48,8 +49,11 @@ public class Login {
 
         // SLEEP_STMT_13: Wait for Login to Complete
         // Wait for Login action to complete
-        Thread.sleep(5000);
-
+        //Thread.sleep(5000);
+        FluentWait<WebDriver> fluentWait= new FluentWait<WebDriver>(driver);
+        fluentWait.withTimeout(Duration.ofSeconds(30));
+        fluentWait.pollingEvery(Duration.ofMillis(250));
+        fluentWait.until(ExpectedConditions.presenceOfElementLocated(By.id("notistack-snackbar")));
         return this.VerifyUserLoggedIn(Username);
     }
 

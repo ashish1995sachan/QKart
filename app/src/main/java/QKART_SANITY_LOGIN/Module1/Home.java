@@ -51,7 +51,14 @@ public class Home {
             WebElement searchBox = driver.findElement(By.xpath("(//input[@name='search'])[1]"));
             searchBox.clear();
             searchBox.sendKeys(product);
-            Thread.sleep(2000);
+            // Thread.sleep(2000);
+            WebDriverWait wait = new WebDriverWait(driver, 5);
+            wait.until(ExpectedConditions.or(
+                    ExpectedConditions
+                            .presenceOfElementLocated(By.xpath("//h4[text()=' No products found ']")),
+                    ExpectedConditions.presenceOfElementLocated(
+                            By.xpath("//div[@class='MuiCardContent-root css-1qw96cp']"))));
+
             return true;
         } catch (Exception e) {
             System.out.println("Error while searching for a product: " + e.getMessage());
@@ -180,16 +187,28 @@ public class Home {
                                 .findElement(By.xpath(".//div[@data-testid='item-qty']"));
                         String actualQuantityText = actualQuantityElement.getText();
                         int actualQuantity = Integer.parseInt(actualQuantityText);
+                        WebDriverWait wait = new WebDriverWait(driver, 4);
+
                         if (actualQuantity < quantity) {
                             WebElement plusButton = parentElement
                                     .findElement(By.xpath(".//*[@data-testid='AddOutlinedIcon']"));
                             plusButton.click();
-                            Thread.sleep(4000);
+
+                            wait.until(ExpectedConditions.textToBePresentInElement(
+                                    parentElement.findElement(
+                                            By.xpath(".//div[@data-testid='item-qty']")),
+                                    String.valueOf(actualQuantity + 1)));
+                            // Thread.sleep(4000);
                         } else if (actualQuantity > quantity) {
                             WebElement minusButton = parentElement.findElement(
                                     By.xpath(".//*[@data-testid='RemoveOutlinedIcon']"));
                             minusButton.click();
-                            Thread.sleep(4000);
+                            wait.until(ExpectedConditions.textToBePresentInElement(
+                                parentElement.findElement(
+                                        By.xpath(".//div[@data-testid='item-qty']")),
+                                String.valueOf(actualQuantity - 1)));
+
+                            //Thread.sleep(4000);
                         } else if (actualQuantity == quantity) {
                             break;
                         }
