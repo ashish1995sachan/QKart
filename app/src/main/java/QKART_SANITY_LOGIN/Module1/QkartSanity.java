@@ -391,7 +391,7 @@ public class QkartSanity {
 
         logStatus("End TestCase", "Test Case 5: Happy Flow Test Completed : ",
                 status ? "PASS" : "FAIL");
-                takeScreenshot(driver, "EndTestCase", "TestCase05");
+        takeScreenshot(driver, "EndTestCase", "TestCase05");
         return status;
     }
 
@@ -472,7 +472,7 @@ public class QkartSanity {
 
         logStatus("End TestCase", "Test Case 6: Verify that cart can be edited: ",
                 status ? "PASS" : "FAIL");
-                takeScreenshot(driver, "EndTestCase", "TestCase06");
+        takeScreenshot(driver, "EndTestCase", "TestCase06");
         return status;
     }
 
@@ -532,7 +532,7 @@ public class QkartSanity {
         logStatus("End TestCase",
                 "Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough: ",
                 status ? "PASS" : "FAIL");
-                takeScreenshot(driver, "EndTestCase", "TestCase07");
+        takeScreenshot(driver, "EndTestCase", "TestCase07");
         return status;
     }
 
@@ -540,6 +540,43 @@ public class QkartSanity {
         Boolean status = false;
 
         // TODO: CRIO_TASK_MODULE_SYNCHRONISATION -
+        takeScreenshot(driver, "StartTestCase", "TestCase07");
+        logStatus("Start TestCase",
+                "Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough",
+                "DONE");
+
+        Register registration = new Register(driver);
+        registration.navigateToRegisterPage();
+        status = registration.registerUser("testUser", "abc@123", true);
+        if (!status) {
+            logStatus("Step Failure", "User Perform Registration Failed", status ? "PASS" : "FAIL");
+            takeScreenshot(driver, "Failed_User_Registration", "TestCase07");
+            logStatus("End TestCase",
+                    "Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough: ",
+                    status ? "PASS" : "FAIL");
+            return false;
+        }
+        lastGeneratedUserName = registration.lastGeneratedUsername;
+
+        Login login = new Login(driver);
+        login.navigateToLoginPage();
+        status = login.PerformLogin(lastGeneratedUserName, "abc@123");
+        if (!status) {
+            logStatus("Step Failure", "User Perform Login Failed", status ? "PASS" : "FAIL");
+            takeScreenshot(driver, "Failed_User_Login", "TestCase07");
+            logStatus("End TestCase",
+                    "Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough: ",
+                    status ? "PASS" : "FAIL");
+            return false;
+        }
+        Home homePage = new Home(driver);
+        homePage.navigateToHome();
+        status = homePage.searchForProduct("Stylecon");
+        homePage.addProductToCart("Stylecon 9 Seater RHS Sofa Set");
+        Thread.sleep(3000);
+
+
+
         return status;
     }
 
