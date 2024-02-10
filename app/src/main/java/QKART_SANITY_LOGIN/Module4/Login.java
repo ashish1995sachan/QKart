@@ -1,4 +1,4 @@
-package QKART_SANITY_LOGIN.Module1;
+package QKART_SANITY_LOGIN.Module4;
 
 import java.time.Duration;
 
@@ -46,9 +46,9 @@ public class Login {
         // Click the login Button
         login_button.click();
 
-        // SLEEP_STMT_13: Wait for Login to Complete
-        // Wait for Login action to complete
-        Thread.sleep(5000);
+        FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofMillis(600)).ignoring(NoSuchElementException.class);
+        wait.until(ExpectedConditions.invisibilityOf(login_button));
 
         return this.VerifyUserLoggedIn(Username);
     }
@@ -56,8 +56,7 @@ public class Login {
     public Boolean VerifyUserLoggedIn(String Username) {
         try {
             // Find the username label (present on the top right of the page)
-            WebElement username_label;
-            username_label = this.driver.findElement(By.className("username-text"));
+            WebElement username_label = this.driver.findElement(By.className("username-text"));
             return username_label.getText().equals(Username);
         } catch (Exception e) {
             return false;

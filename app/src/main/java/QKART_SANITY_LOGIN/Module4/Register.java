@@ -1,4 +1,4 @@
-package QKART_SANITY_LOGIN.Module1;
+package QKART_SANITY_LOGIN.Module4;
 
 import java.sql.Timestamp;
 
@@ -37,7 +37,7 @@ public class Register {
             // Concatenate the timestamp to string to form unique timestamp
             test_data_username = Username + "_" + String.valueOf(timestamp.getTime());
         else
-        test_data_username = Username;
+            test_data_username = Username;
 
         // Type the generated username in the username field
         username_txt_box.sendKeys(test_data_username);
@@ -49,9 +49,7 @@ public class Register {
         // Enter the Password value
         password_txt_box.sendKeys(test_data_password);
 
-        // Find the Confirm password text box
-        WebElement confirm_password_txt_box;
-        confirm_password_txt_box = this.driver.findElement(By.id("confirmPassword"));
+        WebElement confirm_password_txt_box = this.driver.findElement(By.id("confirmPassword"));
 
         // Enter the Confirm Password Value
         confirm_password_txt_box.sendKeys(test_data_password);
@@ -61,10 +59,14 @@ public class Register {
 
         // Click the register now button
         register_now_button.click();
-        // Wait for registration to complete
-        Thread.sleep(3000);
 
-        // SLEEP_STMT_06: Wait for new user to get created in the backend
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            wait.until(ExpectedConditions.or(
+                ExpectedConditions.urlToBe("https://crio-qkart-frontend-qa.vercel.app/login")));
+        } catch (TimeoutException e) {
+            return false;
+        }
 
         this.lastGeneratedUsername = test_data_username;
 
