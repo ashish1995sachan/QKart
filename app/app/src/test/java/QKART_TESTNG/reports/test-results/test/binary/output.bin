@@ -1,0 +1,85 @@
+H2024-07-31T17:49:37.504818 |  Test Step  |  User Perform Login:  | PASS
+y2024-07-31T17:49:37.917769 |  Start Testcase  |  Test Case 2: Verify User Registration with an existing username  | DONE
+H2024-07-31T17:49:42.246007 |  Test Step  |  User Registration :  | PASS
+_2024-07-31T17:50:13.871350 |  End TestCase  |  Test Case 2: Verify user Registration :  | PASS
+j2024-07-31T17:50:13.879304 |  TestCase 3  |  Start test case : Verify functionality of search box  | DONE
+a2024-07-31T17:50:17.979316 |  Step Success  |  Successfully validated the search results  | PASS
+àError while searching for a product: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'Gesundheit')] (tried for 30 second(s) with 500 milliseconds interval)
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+h2024-07-31T17:50:48.694740 |  TestCase 4  |  Start test case : Verify the presence of size Chart | DONE
+i2024-07-31T17:50:52.935783 |  Step Success  |  Successfully validated presence of Size Chart Link | PASS
+V2024-07-31T17:50:53.101972 |  Step Success  |  Validated presence of drop down | PASS
+i2024-07-31T17:50:57.619815 |  Step Success  |  Successfully validated contents of Size Chart Link | PASS
+i2024-07-31T17:51:00.406680 |  Step Success  |  Successfully validated presence of Size Chart Link | PASS
+V2024-07-31T17:51:00.571476 |  Step Success  |  Validated presence of drop down | PASS
+i2024-07-31T17:51:04.825223 |  Step Success  |  Successfully validated contents of Size Chart Link | PASS
+`2024-07-31T17:51:07.504486 |  TestCase 4  |  End Test Case: Validated Size Chart Details | PASS
+j2024-07-31T17:51:07.511570 |  Start TestCase  |  Test Case 5: Verify Happy Flow of buying products | DONE
+`2024-07-31T17:51:34.988030 |  End TestCase  |  Test Case 5: Happy Flow Test Completed :  | PASS
+d2024-07-31T17:51:34.992402 |  Start TestCase  |  Test Case 6: Verify that cart can be edited | DONE
+d2024-07-31T17:52:09.895997 |  End TestCase  |  Test Case 6: Verify that cart can be edited:  | PASS
+ú2024-07-31T17:52:09.902677 |  Start TestCase  |  Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough | DONE
+P2024-07-31T17:52:18.025709 |  Step Failure  |  User Perform Login Failed | FAIL
+ú2024-07-31T17:52:18.026011 |  End TestCase  |  Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough:  | FAIL
+àException while performing add to cart: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='MuiBox-root css-1gjj37g']/div[1][text()='Stylecon 9 Seater RHS Sofa Set '] (tried for 30 second(s) with 500 milliseconds interval)
+&exception occurred when updating cart
+áException while clicking on Checkout: no such element: Unable to locate element: {"method":"css selector","selector":".checkout\-btn"}
+&  (Session info: chrome=91.0.4472.77)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+9*** Element info: {Using=class name, value=checkout-btn}
+åException occurred while entering address: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-new\-btn"}
+&  (Session info: chrome=91.0.4472.77)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+0*** Element info: {Using=id, value=add-new-btn}
+ıException Occurred while selecting the given address: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class = 'MuiTypography-root MuiTypography-body1 css-yg30e6' and text()= 'Addr line 1 addr Line 2 addr line 3']"}
+&  (Session info: chrome=91.0.4472.77)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+õ*** Element info: {Using=xpath, value=//p[@class = 'MuiTypography-root MuiTypography-body1 css-yg30e6' and text()= 'Addr line 1 addr Line 2 addr line 3']}
+ìException while clicking on PLACE ORDER: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='PLACE ORDER']"}
+&  (Session info: chrome=91.0.4472.77)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+F*** Element info: {Using=xpath, value=//button[text()='PLACE ORDER']}
+üException while verifying insufficient balance message: no such element: Unable to locate element: {"method":"css selector","selector":"#notistack\-snackbar"}
+&  (Session info: chrome=91.0.4472.77)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+ïSystem info: host: 'ashishsachan201', ip: '192.168.87.83', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.au9EYT}, goog:chromeOptions: {debuggerAddress: localhost:42881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 398f52911453588612c8393345d...}
+-Session ID: 398f52911453588612c8393345d595dc
+7*** Element info: {Using=id, value=notistack-snackbar}
+ú2024-07-31T17:52:56.694386 |  End TestCase  |  Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough:  | FAIL
+	ç2024-07-31T17:52:56.698628 |  Start TestCase  |  Test Case 8: Verify that product added to cart is available when a new tab is opened | DONE
+
+Ö2024-07-31T17:53:24.571969 |  End TestCase  |  Test Case 9: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+z2024-07-31T17:53:25.236156 |  Start TestCase  |  Test Case 10: Verify that contact us option is working correctly  | DONE
+x2024-07-31T17:53:28.155588 |  End TestCase  |  Test Case 10: Verify that contact us option is working correctly  | PASS
+Ö2024-07-31T17:53:29.047191 |  Start TestCase  |  Test Case 11: Ensure that the links on the QKART advertisement are clickable | DONE
+Z2024-07-31T17:53:56.332327 |  Step   |  Verify that 3 Advertisements are available | PASS
+Y2024-07-31T17:53:56.617170 |  Step   |  Verify that Advertisement 1 is clickable  | PASS
+Y2024-07-31T17:54:00.234835 |  Step   |  Verify that Advertisement 2 is clickable  | PASS
+Ñ2024-07-31T17:54:00.236086 |  End TestCase  |  Test Case 11:  Ensure that the links on the QKART advertisement are clickable | PASS
