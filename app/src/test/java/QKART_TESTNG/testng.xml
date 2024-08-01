@@ -5,7 +5,7 @@
         <listener class-name = "QKART_TESTNG.ListenerClass"></listener>
     </listeners>
     <test name="Groups execution">
-    <parameter name ="Username" value ="testUser" />
+    <parameter name ="Username" value ="testUser1" />
     <parameter name ="Password" value ="abc@123" />
     <parameter name ="Yarine" value ="Yarine Floor Lamp" />
     <parameter name ="YONEX" value ="YONEX" />
@@ -13,6 +13,7 @@
     <parameter name ="yonex" value ="YONEX Smash Badminton Racquet" />
     <parameter name ="tan" value ="Tan Leatherette Weekender Duffle" />
     <parameter name ="address" value ="Addr line 1 addr Line 2 addr line 3" />
+    <parameter name ="Xtend" value ="Xtend Smart Watch" />
     <parameter name ="Stylecon" value ="Stylecon" />
     <parameter name ="quantity" value ="10" />
     <parameter name ="user" value ="crio user" />

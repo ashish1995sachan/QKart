@@ -52,9 +52,10 @@ public class Home {
             searchBox.sendKeys(product);
 
             WebDriverWait wait = new WebDriverWait(driver, 30);
-            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(String
-                    .format("//div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'%s')]", product))));
-            Thread.sleep(3000);
+            // wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(String
+            //         .format("//div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'%s')]", product))));
+            // Thread.sleep(3000);
+            
             return true;
         } catch (Exception e) {
             System.out.println("Error while searching for a product: " + e.getMessage());

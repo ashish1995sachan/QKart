@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="2" failed="9" skipped="0">
+<testng-results ignored="0" total="10" passed="4" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T13:33:29 IST" name="TestNG Parameters suite" finished-at="2024-08-01T13:35:35 IST" duration-ms="125925">
+  <suite started-at="2024-08-01T16:13:56 IST" name="TestNG Parameters suite" finished-at="2024-08-01T16:16:31 IST" duration-ms="154348">
     <groups>
       <group name="Regression_Test">
-        <method signature="QKART_Tests.TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase04" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase06" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase08" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase09" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase10" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase04" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase08" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase09" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase10" class="QKART_TESTNG.QKART_Tests"/>
       </group> <!-- Regression_Test -->
       <group name="Sanity_test">
-        <method signature="QKART_Tests.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase01" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase02" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase03" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase05" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase07" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@26c8da55]" name="TestCase11" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase01" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase02" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase03" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase05" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase07" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@26d5c249]" name="TestCase11" class="QKART_TESTNG.QKART_Tests"/>
       </group> <!-- Sanity_test -->
     </groups>
-    <test started-at="2024-08-01T13:33:29 IST" name="Groups execution" finished-at="2024-08-01T13:35:35 IST" duration-ms="125925">
+    <test started-at="2024-08-01T16:13:56 IST" name="Groups execution" finished-at="2024-08-01T16:16:31 IST" duration-ms="154348">
       <class name="QKART_TESTNG.QKART_Tests">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:33:27 IST" name="createDriver" finished-at="2024-08-01T13:33:29 IST" duration-ms="2871" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:13:53 IST" name="createDriver" finished-at="2024-08-01T16:13:56 IST" duration-ms="3028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:33:29 IST" name="TestCase01" description="Verify registration happens correctly" finished-at="2024-08-01T13:33:39 IST" duration-ms="9769" status="FAIL">
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:13:56 IST" name="TestCase01" description="Verify registration happens correctly" finished-at="2024-08-01T16:14:08 IST" duration-ms="11378" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testUser]]>
+                <![CDATA[testUser1]]>
               </value>
             </param>
             <param index="1">
@@ -39,16 +38,164 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method signature="TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:14:09 IST" name="TestCase02" description="Verify re-registering an already registered user fails" finished-at="2024-08-01T16:14:47 IST" duration-ms="37238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+        <test-method signature="TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:14:48 IST" name="TestCase03" description="Verify the functionality of search text box" finished-at="2024-08-01T16:14:52 IST" duration-ms="3285" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Failed to login with registered user expected [true] but found [false]]]>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.K0JBy9}, goog:chromeOptions: {debuggerAddress: localhost:46029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2f1787f02e7504fff1146134083...}
+Session ID: 2f1787f02e7504fff1146134083407f9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed to login with registered user expected [true] but found [false]
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.K0JBy9}, goog:chromeOptions: {debuggerAddress: localhost:46029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2f1787f02e7504fff1146134083...}
+Session ID: 2f1787f02e7504fff1146134083407f9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
+at QKART_TESTNG.pages.SearchResult.getTitleofResult(SearchResult.java:29)
+at QKART_TESTNG.QKART_Tests.TestCase03(QKART_Tests.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method signature="TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:14:53 IST" name="TestCase04" description="Verify the existence of size chart for certain items and validate contents of size chart" finished-at="2024-08-01T16:15:10 IST" duration-ms="17178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Running Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method signature="TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:15:11 IST" name="TestCase05" description="Verify that a new user can add multiple products in to the cart and Checkout" finished-at="2024-08-01T16:15:20 IST" duration-ms="8906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX Smash Badminton Racquet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tan Leatherette Weekender Duffle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Addr line 1 addr Line 2 addr line 3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User Perform Login Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User Perform Login Failed expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at QKART_TESTNG.QKART_Tests.TestCase01(QKART_Tests.java:74)
+at QKART_TESTNG.QKART_Tests.TestCase05(QKART_Tests.java:278)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,53 +254,39 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase01 -->
-        <test-method signature="TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:33:42 IST" name="TestCase02" description="Verify re-registering an already registered user fails" finished-at="2024-08-01T13:34:18 IST" duration-ms="36437" status="PASS">
+        </test-method> <!-- TestCase05 -->
+        <test-method signature="TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:15:23 IST" name="TestCase07" description="Verify that insufficient balance error is thrown when the wallet balance is not enough" finished-at="2024-08-01T16:15:41 IST" duration-ms="17927" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testUser]]>
+                <![CDATA[Stylecon]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[abc@123]]>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase02 -->
-        <test-method signature="TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:34:20 IST" name="TestCase03" description="Verify the functionality of search text box" finished-at="2024-08-01T13:34:57 IST" duration-ms="36662" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[YONEX]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase03 -->
-        <test-method signature="TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:34:58 IST" name="TestCase04" description="Verify the existence of size chart for certain items and validate contents of size chart" finished-at="2024-08-01T13:34:58 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Parameter 'Running Shoes' is required by @Test on method TestCase04 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
+              <![CDATA[Unable to verify error message expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'Running Shoes' is required by @Test on method TestCase04 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+              <![CDATA[java.lang.AssertionError: Unable to verify error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at QKART_TESTNG.QKART_Tests.TestCase07(QKART_Tests.java:442)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -200,218 +333,11 @@ at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(Th
 at java.base/java.lang.Thread.run(Thread.java:829)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase04 -->
-        <test-method signature="TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:34:59 IST" name="TestCase05" description="Verify that a new user can add multiple products in to the cart and Checkout" finished-at="2024-08-01T13:34:59 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'YONEX Smash Badminton Racquet' is required by @Test on method TestCase05 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'YONEX Smash Badminton Racquet' is required by @Test on method TestCase05 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase05 -->
-        <test-method signature="TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:00 IST" name="TestCase06" description="Verify that the contents of the cart can be edited" finished-at="2024-08-01T13:35:00 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'Xtend' is required by @Test on method TestCase06 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'Xtend' is required by @Test on method TestCase06 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase06 -->
-        <test-method signature="TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:00 IST" name="TestCase07" description="Verify that insufficient balance error is thrown when the wallet balance is not enough" finished-at="2024-08-01T13:35:00 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter '10' is required by @Test on method TestCase07 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter '10' is required by @Test on method TestCase07 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase07 -->
-        <test-method signature="TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:01 IST" name="TestCase08" description="Verify that a product added to a cart is available when a new tab is added" finished-at="2024-08-01T13:35:22 IST" duration-ms="21080" status="FAIL">
+        <test-method signature="TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:15:42 IST" name="TestCase08" description="Verify that a product added to a cart is available when a new tab is added" finished-at="2024-08-01T16:16:04 IST" duration-ms="22054" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Verification of Cart contents Failed expected [true] but found [false]]]>
@@ -421,7 +347,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at QKART_TESTNG.QKART_Tests.TestCase08(QKART_Tests.java:497)
+at QKART_TESTNG.QKART_Tests.TestCase08(QKART_Tests.java:500)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -481,7 +407,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase08 -->
-        <test-method signature="TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:23 IST" name="TestCase09" description="Verify that privacy policy and about us links are working fine" finished-at="2024-08-01T13:35:33 IST" duration-ms="9457" status="FAIL">
+        <test-method signature="TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:16:05 IST" name="TestCase09" description="Verify that privacy policy and about us links are working fine" finished-at="2024-08-01T16:16:14 IST" duration-ms="9337" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div/div[2]/h2"}
@@ -490,8 +416,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.N9b9pF}, goog:chromeOptions: {debuggerAddress: localhost:44927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 43b43a6e5e045ac9438ad24aa8a...}
-Session ID: 43b43a6e5e045ac9438ad24aa8ae4593
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.K0JBy9}, goog:chromeOptions: {debuggerAddress: localhost:46029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2f1787f02e7504fff1146134083...}
+Session ID: 2f1787f02e7504fff1146134083407f9
 *** Element info: {Using=xpath, value=//*[@id="root"]/div/div[2]/h2}]]>
             </message>
             <full-stacktrace>
@@ -501,8 +427,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.N9b9pF}, goog:chromeOptions: {debuggerAddress: localhost:44927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 43b43a6e5e045ac9438ad24aa8a...}
-Session ID: 43b43a6e5e045ac9438ad24aa8ae4593
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.K0JBy9}, goog:chromeOptions: {debuggerAddress: localhost:46029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2f1787f02e7504fff1146134083...}
+Session ID: 2f1787f02e7504fff1146134083407f9
 *** Element info: {Using=xpath, value=//*[@id="root"]/div/div[2]/h2}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -517,7 +443,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-at QKART_TESTNG.QKART_Tests.TestCase09(QKART_Tests.java:560)
+at QKART_TESTNG.QKART_Tests.TestCase09(QKART_Tests.java:563)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -577,94 +503,54 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase09 -->
-        <test-method signature="TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:34 IST" name="TestCase10" description="Verify that the contact us dialog works fine" finished-at="2024-08-01T13:35:34 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'crio user' is required by @Test on method TestCase10 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'crio user' is required by @Test on method TestCase10 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:16:14 IST" name="TestCase10" description="Verify that the contact us dialog works fine" finished-at="2024-08-01T16:16:16 IST" duration-ms="2127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crio user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing the contact us page]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase10 -->
-        <test-method signature="TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:35 IST" name="TestCase11" description="Ensure that the Advertisement Links on the QKART page are clickable" finished-at="2024-08-01T13:35:35 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method signature="TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:16:17 IST" name="TestCase11" description="Ensure that the Advertisement Links on the QKART page are clickable" finished-at="2024-08-01T16:16:30 IST" duration-ms="12082" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX Smash Badminton Racquet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Addr line 1  addr Line 2  addr line 3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Parameter 'YONEX Smash Badminton Racquet' is required by @Test on method TestCase11 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml]]>
+              <![CDATA[Verify that 3 Advertisements are available Failed expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'YONEX Smash Badminton Racquet' is required by @Test on method TestCase11 but has not been marked @Optional or defined
-in /home/crio-user/workspace/ashishsachan201-ME_QKART_QA_V2/app/src/test/java/QKART_TESTNG/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+              <![CDATA[java.lang.AssertionError: Verify that 3 Advertisements are available Failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at QKART_TESTNG.QKART_Tests.TestCase11(QKART_Tests.java:689)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -711,11 +597,11 @@ at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(Th
 at java.base/java.lang.Thread.run(Thread.java:829)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase11 -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@26c8da55]" started-at="2024-08-01T13:35:36 IST" name="quitDriver" finished-at="2024-08-01T13:35:36 IST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@26d5c249]" started-at="2024-08-01T16:16:31 IST" name="quitDriver" finished-at="2024-08-01T16:16:31 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
