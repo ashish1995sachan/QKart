@@ -35,4 +35,5 @@
             <class name="QKART_TESTNG.QKART_Tests" />
         </classes>
     </test>
-</suite>
+</suite> 
+

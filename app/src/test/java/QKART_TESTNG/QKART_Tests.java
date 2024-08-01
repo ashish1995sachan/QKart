@@ -315,7 +315,7 @@ public class QKART_Tests {
         
     }
 
-    // @Test(groups ={"Regression_Test"} ,description = "Verify that the contents of the cart can be edited",priority = 6)
+    @Test(groups ={"Regression_Test"} ,description = "Verify that the contents of the cart can be edited",priority = 6)
     @Parameters ({"Xtend", "Yarine"})
 
     public void TestCase06(String Xtend,String Yarine) throws InterruptedException {
@@ -361,13 +361,13 @@ public class QKART_Tests {
 
         // update watch quantity again to 1
         homePage.changeProductQuantityinCart(Xtend, 1);
-
+        Thread.sleep(2000);
         homePage.clickCheckout();
 
         Checkout checkoutPage = new Checkout(driver);
         checkoutPage.addNewAddress("Addr line 1 addr Line 2 addr line 3");
         checkoutPage.selectAddress("Addr line 1 addr Line 2 addr line 3");
-
+        Thread.sleep(2000);
         checkoutPage.placeOrder();
 
         try {
@@ -398,7 +398,7 @@ public class QKART_Tests {
 
         Register registration = new Register(driver);
         registration.navigateToRegisterPage();
-        status = registration.registerUser("testUser3", "abc@1236", true);
+        status = registration.registerUser("testUser", "abc@123", true);
         // if (!status) {
         //     logStatus("Step Failure", "User Perform Registration Failed", status ? "PASS" : "FAIL");
         //     logStatus("End TestCase",
@@ -411,7 +411,7 @@ public class QKART_Tests {
 
         Login login = new Login(driver);
         login.navigateToLoginPage();
-        status = login.PerformLogin(lastGeneratedUserName, "abc@1236");
+        status = login.PerformLogin(lastGeneratedUserName, "abc@123");
         // if (!status) {
         //     logStatus("Step Failure", "User Perform Login Failed", status ? "PASS" : "FAIL");
         //     logStatus("End TestCase",
@@ -419,7 +419,7 @@ public class QKART_Tests {
         //             status ? "PASS" : "FAIL");
             
         // }
-        Assert.assertTrue(status, "User Perform Login Failed");
+        Assert.assertTrue(status, "Failed to login with registered user");
 
         Home homePage = new Home(driver);
         homePage.navigateToHome();
@@ -436,7 +436,7 @@ public class QKART_Tests {
         checkoutPage.selectAddress("Addr line 1 addr Line 2 addr line 3");
 
         checkoutPage.placeOrder();
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
         status = checkoutPage.verifyInsufficientBalanceMessage();
         Assert.assertTrue(status, "Unable to verify error message");
@@ -645,7 +645,7 @@ public class QKART_Tests {
 
         Register registration = new Register(driver);
         registration.navigateToRegisterPage();
-        status = registration.registerUser("testUser6", "abc@1230", true);
+        status = registration.registerUser("testUser", "abc@123", true);
         // if (!status) {
         //     logStatus("TestCase 11",
         //             "Test Case Failure. Ensure that the links on the QKART advertisement are clickable",
@@ -665,7 +665,7 @@ public class QKART_Tests {
         //             "Test Case 11:  Ensure that the links on the QKART advertisement are clickable",
         //             status ? "PASS" : "FAIL");
         // }
-        Assert.assertTrue(status, "User Perform Login Failed");
+        Assert.assertTrue(status, "Verify user Registration Failed");
         Home homePage = new Home(driver);
         homePage.navigateToHome();
 
