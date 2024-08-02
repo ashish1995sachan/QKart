@@ -52,15 +52,9 @@ public class Home {
             searchBox.sendKeys(product);
 
             WebDriverWait wait = new WebDriverWait(driver, 30);
-            // wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(String
-            //         .format("//div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'%s')]", product))));
-            // Thread.sleep(3000);
-            wait.until(ExpectedConditions.or(
-                    ExpectedConditions.textToBePresentInElementLocated(By.className("css-yg30ev6"),
-                            product),
-                    ExpectedConditions.presenceOfElementLocated(By
-                            .xpath("//div[contains(@class,'MuiPaper-root MuiPaper-elevation')]"))));
-            
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(String
+                    .format("//div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'%s')]", product))));
+            Thread.sleep(3000);
             return true;
         } catch (Exception e) {
             System.out.println("Error while searching for a product: " + e.getMessage());
@@ -139,7 +133,6 @@ public class Home {
         try {
             // Find and click on the the Checkout button
             WebElement checkoutBtn = driver.findElement(By.className("checkout-btn"));
-            
             checkoutBtn.click();
 
             status = true;

@@ -31,7 +31,6 @@ public class Checkout {
              * Click on the "Add new address" button, enter the addressString in the address
              * text box and click on the "ADD" button to save the address
              */
-            Thread.sleep(2000);
             WebElement addNewAddressButton = driver.findElement(By.id("add-new-btn"));
             addNewAddressButton.click();
 
@@ -41,7 +40,6 @@ public class Checkout {
 
             List<WebElement> buttons = driver.findElements(By.className("css-177pwqq"));
             for (WebElement button : buttons) {
-                Thread.sleep(2000);
                 if (button.getText().equals("ADD")) {
                     button.click();
                     WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -102,7 +100,6 @@ public class Checkout {
      */
     public Boolean verifyInsufficientBalanceMessage() {
         try {
-            Thread.sleep(2000);
             WebElement alertMessage = driver.findElement(By.id("notistack-snackbar"));
             if (alertMessage.isDisplayed()) {
                 if (alertMessage.getText().equals("You do not have enough balance in your wallet for this purchase")) {

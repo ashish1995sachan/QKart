@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T21:53:57 IST" name="TestNG Parameters suite" finished-at="2024-08-01T21:57:33 IST" duration-ms="216525">
+  <suite started-at="2024-08-02T12:18:45 IST" name="Test case suite e-commerce application" finished-at="2024-08-02T12:25:46 IST" duration-ms="421279">
     <groups>
       <group name="Regression_Test">
-        <method signature="QKART_Tests.TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase04" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase06" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase08" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase09" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase10" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase04()[pri:4, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase04" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase06" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase08" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase09" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase10()[pri:10, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase10" class="QKART_TESTNG.QKART_Tests"/>
       </group> <!-- Regression_Test -->
       <group name="Sanity_test">
-        <method signature="QKART_Tests.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase01" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase02" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase03" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase05" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase07" class="QKART_TESTNG.QKART_Tests"/>
-        <method signature="QKART_Tests.TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@b7c3032]" name="TestCase11" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase01" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase02()[pri:2, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase02" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase03()[pri:3, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase03" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase05" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase07(java.lang.String,java.lang.String)[pri:7, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase07" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase11()[pri:11, instance:QKART_TESTNG.QKART_Tests@249c59da]" name="TestCase11" class="QKART_TESTNG.QKART_Tests"/>
       </group> <!-- Sanity_test -->
     </groups>
-    <test started-at="2024-08-01T21:53:57 IST" name="Groups execution" finished-at="2024-08-01T21:57:33 IST" duration-ms="216525">
+    <test started-at="2024-08-02T12:18:45 IST" name="Test case execution on Chrome browser" finished-at="2024-08-02T12:25:46 IST" duration-ms="421279">
       <class name="QKART_TESTNG.QKART_Tests">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:53:53 IST" name="createDriver" finished-at="2024-08-01T21:53:57 IST" duration-ms="3720" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:18:43 IST" name="createDriver" finished-at="2024-08-02T12:18:45 IST" duration-ms="2252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:53:57 IST" name="TestCase01" description="Verify registration happens correctly" finished-at="2024-08-01T21:54:12 IST" duration-ms="15406" status="PASS">
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:18:45 IST" name="TestCase01" description="Verify registration happens correctly" finished-at="2024-08-02T12:18:58 IST" duration-ms="12437" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testUser1]]>
+                <![CDATA[testUser]]>
               </value>
             </param>
             <param index="1">
@@ -42,143 +42,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase01 -->
-        <test-method signature="TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:54:13 IST" name="TestCase02" description="Verify re-registering an already registered user fails" finished-at="2024-08-01T21:54:51 IST" duration-ms="37282" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUser1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="TestCase02()[pri:2, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:18:59 IST" name="TestCase02" description="Verify re-registering an already registered user fails" finished-at="2024-08-02T12:19:37 IST" duration-ms="38180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase02 -->
-        <test-method signature="TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:54:52 IST" name="TestCase03" description="Verify the functionality of search text box" finished-at="2024-08-01T21:54:55 IST" duration-ms="2871" status="FAIL">
+        <test-method signature="TestCase03()[pri:3, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:19:38 IST" name="TestCase03" description="Verify the functionality of search text box" finished-at="2024-08-02T12:20:13 IST" duration-ms="35643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method signature="TestCase04()[pri:4, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:20:14 IST" name="TestCase04" description="Verify the existence of size chart for certain items and validate contents of size chart" finished-at="2024-08-02T12:20:35 IST" duration-ms="21251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method signature="TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:20:36 IST" name="TestCase05" description="Verify that a new user can add multiple products in to the cart and Checkout" finished-at="2024-08-02T12:21:06 IST" duration-ms="29952" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[YONEX]]>
               </value>
             </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=91.0.4472.77)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.bJmmu9}, goog:chromeOptions: {debuggerAddress: localhost:39657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8f95c8d8db50c31850797defd3b...}
-Session ID: 8f95c8d8db50c31850797defd3b3bff6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=91.0.4472.77)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'ashishsachan201', ip: '192.168.71.218', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.bJmmu9}, goog:chromeOptions: {debuggerAddress: localhost:39657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8f95c8d8db50c31850797defd3b...}
-Session ID: 8f95c8d8db50c31850797defd3b3bff6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)
-at QKART_TESTNG.pages.SearchResult.getTitleofResult(SearchResult.java:29)
-at QKART_TESTNG.QKART_Tests.TestCase03(QKART_Tests.java:151)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase03 -->
-        <test-method signature="TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:54:56 IST" name="TestCase04" description="Verify the existence of size chart for certain items and validate contents of size chart" finished-at="2024-08-01T21:55:13 IST" duration-ms="17416" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Running Shoes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase04 -->
-        <test-method signature="TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:55:15 IST" name="TestCase05" description="Verify that a new user can add multiple products in to the cart and Checkout" finished-at="2024-08-01T21:55:38 IST" duration-ms="23879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[YONEX Smash Badminton Racquet]]>
-              </value>
-            </param>
             <param index="1">
               <value>
-                <![CDATA[Tan Leatherette Weekender Duffle]]>
+                <![CDATA[Tan]]>
               </value>
             </param>
             <param index="2">
@@ -190,23 +75,23 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase05 -->
-        <test-method signature="TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:55:40 IST" name="TestCase06" description="Verify that the contents of the cart can be edited" finished-at="2024-08-01T21:56:19 IST" duration-ms="39615" status="PASS">
+        <test-method signature="TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:21:07 IST" name="TestCase06" description="Verify that the contents of the cart can be edited" finished-at="2024-08-02T12:21:41 IST" duration-ms="34550" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Xtend Smart Watch]]>
+                <![CDATA[Xtend]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Yarine Floor Lamp]]>
+                <![CDATA[Yarine]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase06 -->
-        <test-method signature="TestCase07(java.lang.String,int)[pri:7, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:56:21 IST" name="TestCase07" description="Verify that insufficient balance error is thrown when the wallet balance is not enough" finished-at="2024-08-01T21:56:30 IST" duration-ms="9884" status="FAIL">
+        <test-method signature="TestCase07(java.lang.String,java.lang.String)[pri:7, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:21:42 IST" name="TestCase07" description="Verify that insufficient balance error is thrown when the wallet balance is not enough" finished-at="2024-08-02T12:24:48 IST" duration-ms="185945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,186 +104,26 @@ at java.base/java.lang.Thread.run(Thread.java:829)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed to login with registered user expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed to login with registered user expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at QKART_TESTNG.QKART_Tests.TestCase07(QKART_Tests.java:422)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase07 -->
-        <test-method signature="TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:56:32 IST" name="TestCase08" description="Verify that a product added to a cart is available when a new tab is added" finished-at="2024-08-01T21:56:59 IST" duration-ms="26265" status="PASS">
+        <test-method signature="TestCase08()[pri:8, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:24:48 IST" name="TestCase08" description="Verify that a product added to a cart is available when a new tab is added" finished-at="2024-08-02T12:25:06 IST" duration-ms="17743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase08 -->
-        <test-method signature="TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:56:59 IST" name="TestCase09" description="Verify that privacy policy and about us links are working fine" finished-at="2024-08-01T21:57:14 IST" duration-ms="14228" status="PASS">
+        <test-method signature="TestCase09()[pri:9, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:25:06 IST" name="TestCase09" description="Verify that privacy policy and about us links are working fine" finished-at="2024-08-02T12:25:17 IST" duration-ms="10560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase09 -->
-        <test-method signature="TestCase10(java.lang.String,java.lang.String)[pri:10, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:57:14 IST" name="TestCase10" description="Verify that the contact us dialog works fine" finished-at="2024-08-01T21:57:17 IST" duration-ms="2555" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[crio user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testing the contact us page]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="TestCase10()[pri:10, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:25:17 IST" name="TestCase10" description="Verify that the contact us dialog works fine" finished-at="2024-08-02T12:25:19 IST" duration-ms="2020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase10 -->
-        <test-method signature="TestCase11(java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:57:17 IST" name="TestCase11" description="Ensure that the Advertisement Links on the QKART page are clickable" finished-at="2024-08-01T21:57:32 IST" duration-ms="14075" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[YONEX Smash Badminton Racquet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Addr line 1  addr Line 2  addr line 3]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Verify user Registration Failed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Verify user Registration Failed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at QKART_TESTNG.QKART_Tests.TestCase11(QKART_Tests.java:668)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-at com.sun.proxy.$Proxy2.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-at java.base/java.lang.Thread.run(Thread.java:829)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="TestCase11()[pri:11, instance:QKART_TESTNG.QKART_Tests@249c59da]" started-at="2024-08-02T12:25:20 IST" name="TestCase11" description="Ensure that the Advertisement Links on the QKART page are clickable" finished-at="2024-08-02T12:25:46 IST" duration-ms="26568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase11 -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@b7c3032]" started-at="2024-08-01T21:57:33 IST" name="quitDriver" finished-at="2024-08-01T21:57:33 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
       </class> <!-- QKART_TESTNG.QKART_Tests -->
-    </test> <!-- Groups execution -->
-  </suite> <!-- TestNG Parameters suite -->
+    </test> <!-- Test case execution on Chrome browser -->
+  </suite> <!-- Test case suite e-commerce application -->
 </testng-results>
